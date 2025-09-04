@@ -5,10 +5,10 @@ import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../images/color-sharp2.png";
 import oldTheme from "../images/projects/90stheme.png";
 import Egypt from "../images/projects/egypt.png";
-import Food from "../images/projects/Food.png";
+import Food from "../images/projects/food.png";
 import eShop from "../images/projects/eshop.png";
 import todoList from "../images/projects/todolist.png";
-import LillaHyra from "../images/projects/LillaHyra.png";
+import LillaHyra from "../images/projects/lillahyra.png";
 import ProjectGlow from "../components/ProjectGlow";
 gsap.registerPlugin(ScrollTrigger);
 
