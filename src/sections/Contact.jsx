@@ -31,16 +31,16 @@ const Contact = () => {
 				ease: "power3.out",
 				scrollTrigger: {
 					trigger: sectionRef.current,
-					start: "top 80%", // when top of section hits 80% viewport
+					start: "top 80%",
 					end: "top 50%",
-					toggleActions: "play none none reverse", // animate in & out
-					markers: false, // turn true if you want to debug
+					toggleActions: "play none none reverse",
+					markers: false,
 				},
 			}
 		);
 
 		gsap.fromTo(
-			sectionRef.current.querySelector("h2"), // TitleHeader likely renders an <h2>
+			sectionRef.current.querySelector("h2"),
 			{ opacity: 0, y: -50 },
 			{
 				opacity: 1,
@@ -56,7 +56,6 @@ const Contact = () => {
 		);
 	}, []);
 	useEffect(() => {
-		// Animate the Title
 		gsap.fromTo(
 			sectionRef.current.querySelector("h2"),
 			{ opacity: 0, y: -50 },
@@ -73,7 +72,6 @@ const Contact = () => {
 			}
 		);
 
-		// Animate form fields staggered
 		gsap.fromTo(
 			sectionRef.current.querySelectorAll("form > div, form button"), // select inputs + button
 			{ opacity: 0, y: 50 },
