@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Frontend Developmer", imgPath: "/images/code.svg" },
-  { text: "Full stack Developmer", imgPath: "/images/concepts.svg" },
+  { text: "Frontend Developer", imgPath: "/images/code.svg" },
+  { text: "Full stack Developer", imgPath: "/images/concepts.svg" },
   { text: "UX/UI Designer", imgPath: "/images/designs.svg" },
   { text: "Visual Design", imgPath: "/images/designs.svg" },
   { text: "Programmer", imgPath: "/images/concepts.svg" },
-  { text: "Creative Thinking", imgPath: "/images/ideas.svg" },
+  { text: "Creative Thinker", imgPath: "/images/ideas.svg" },
   { text: "UX/UI Designer", imgPath: "/images/designs.svg" },
-  { text: "Frontend Development", imgPath: "/images/code.svg" },
+  { text: "Frontend Developer", imgPath: "/images/code.svg" },
 
 
 ];
