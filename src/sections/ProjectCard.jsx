@@ -14,13 +14,13 @@ const ProjectCard = ({ title, description, imgUrl, demoLink, codeLink }) => {
 				<div className="mt-4 flex gap-3 flex-shrink-0">
 					<button
 						onClick={() => handleClick(demoLink)}
-						className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm flex-1 transition-colors duration-200"
+						className="bg-black-50 hover:bg-gray-700 text-white px-4 py-2 rounded-lg text-sm flex-1 transition-colors duration-200  cursor-pointer"
 					>
 						Live Project
 					</button>
 					<button
 						onClick={() => handleClick(codeLink)}
-						className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg text-sm flex-1 transition-colors duration-200"
+						className="bg-black-50 hover:bg-gray-700 text-white px-4 py-2 rounded-lg text-sm flex-1 transition-colors duration-200  cursor-pointer"
 					>
 						Source Code
 					</button>

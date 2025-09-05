@@ -5,7 +5,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
-
+// import { IriniCV } from "../../public/Irini_CV.pdf";
 const Hero = () => {
 	useGSAP(() => {
 		gsap.fromTo(
@@ -27,7 +27,7 @@ const Hero = () => {
 						<div className="hero-text">
 							<h1>
 								Hi I am Irini,
-								<h1>
+								<p>
 									I'm a
 									<span className="slide">
 										<span className="wrapper">
@@ -43,7 +43,7 @@ const Hero = () => {
 											))}
 										</span>
 									</span>
-								</h1>
+								</p>
 							</h1>
 						</div>
 
@@ -51,7 +51,8 @@ const Hero = () => {
 							📍 Based in Stockholm, Sweden 💡 Open to collaborations & new opportunities
 						</p>
 
-						<Button text="See My Work" className="md:w-80 md:h-16 w-60 h-12" id="counter" />
+						{/* <Button text="See My Work" className="md:w-80 md:h-16 w-60 h-12" id="counter" /> */}
+						<Button text="Download my CV" className="md:w-80 md:h-16 w-60 h-12" id="counter" />
 					</div>
 				</header>
 

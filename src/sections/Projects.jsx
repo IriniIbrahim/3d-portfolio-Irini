@@ -10,6 +10,8 @@ import eShop from "../images/projects/eshop.png";
 import todoList from "../images/projects/todolist.png";
 import LillaHyra from "../images/projects/lillahyra.png";
 import ProjectGlow from "../components/ProjectGlow";
+import TitleHeader from "../components/TitleHeader";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
@@ -62,7 +64,6 @@ const Projects = () => {
 	];
 
 	useEffect(() => {
-		// Animation directions for each card (alternating pattern)
 		const animations = [
 			{ x: -100, y: 0, rotation: -10 }, // Card 1: from left with slight rotation
 			{ x: 0, y: -100, rotation: 0 }, // Card 2: from top
@@ -151,8 +152,7 @@ const Projects = () => {
 	return (
 		<section id="projects" className="relative py-16 bg-gray-900 text-white" ref={projectsRef}>
 			<div className="max-w-6xl mx-auto px-6">
-				<h2 className="projects-title text-3xl font-bold text-center mb-12 opacity-0">Projects</h2>
-
+				<TitleHeader title="Projects" sub="📋 Show case of real projects" />
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 					{projects.map((project, index) => (
 						<div key={index} ref={(el) => (cardsRef.current[index] = el)} className="opacity-0">

@@ -19,7 +19,7 @@ const FeatureCards = () => {
 				y: 0,
 				duration: 1,
 				ease: "power3.out",
-				stagger: 0.3, // 👈 each card animates one after another
+				stagger: 0.3,
 				scrollTrigger: {
 					trigger: sectionRef.current,
 					start: "top 80%",
